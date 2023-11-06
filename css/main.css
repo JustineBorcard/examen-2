@@ -43,9 +43,68 @@ video {
 }
 
 h2 {
-  font-family: ral;
+  color: #704343;
+  font-family: Raleway;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sticker {
+  width: 93px;
+  height: 98px;
+  flex-shrink: 0;
+  background: #e6f5e0;
+  border-radius: 60px;
+}
+
+.p-sticker {
+  color: var(--Dark-green, #384b2b);
+  text-align: center;
+  font-family: Raleway;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.intro {
+  color: #896b6b;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h3 {
+  color: #5e3434;
+  text-align: center;
+  font-family: Rakkas;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: #622e2e;
+  font-family: Raleway;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
 li {
+  border-bottom: 1px solid black;
   list-style-type: none;
+  color: #e6f5e0;
+  font-family: Raleway;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
