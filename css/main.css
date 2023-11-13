@@ -110,7 +110,6 @@ h4 {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  padding-bottom: 5px;
 }
 
 li {
@@ -123,6 +122,8 @@ li {
   font-weight: 700;
   line-height: normal;
   margin-left: 20px;
+  margin-top: 10px;
+  padding-bottom: 5px;
 }
 
 .button {
