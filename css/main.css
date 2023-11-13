@@ -1,14 +1,3 @@
-/* ====================================
-// css variables
-// ==================================== */
-
-:root {
-}
-
-/* ====================================
-// reset rules
-// ==================================== */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -45,6 +34,22 @@ video {
 
 .row + .row {
   margin-top: 16px;
+}
+
+.site {
+  display: flex;
+}
+
+.site-side {
+  background: #e6f5e0;
+  width: 140px;
+  padding-right: 31px;
+}
+
+.logo {
+  margin: 31px 16px 0px 16px;
+  width: 38px;
+  height: 214.183px;
 }
 
 h2 {
@@ -138,5 +143,28 @@ li {
   opacity: 0.5;
   background: #d9d9d9;
   padding: 4px 12px;
-  margin: 25px 86px 76px 68px;
+  margin: 25px 86px 76px 136px;
+}
+
+.dish {
+  aspect-ratio: 1.77;
+  object-fit: cover;
+  object-position: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.reservation {
+  opacity: 0.5;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  mix-blend-mode: hard-light;
+}
+
+.adress {
+  color: var(--white-text, #fff);
+  font-family: Raleway;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
