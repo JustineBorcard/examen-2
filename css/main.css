@@ -4,9 +4,6 @@
   padding: 0;
 }
 
-html {
-}
-
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14,8 +11,10 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
-
   background: #384b2b;
+}
+
+.background {
   background-image: url("../img/image-background.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -42,8 +41,7 @@ video {
 
 .site-side {
   background: #e6f5e0;
-  width: 140px;
-  padding-right: 31px;
+  flex-shrink: 0;
 }
 
 .logo {
@@ -143,7 +141,7 @@ li {
   opacity: 0.5;
   background: #d9d9d9;
   padding: 4px 12px;
-  margin: 25px 86px 76px 136px;
+  margin: 25px 86px 76px 150px;
 }
 
 .dish {
@@ -156,8 +154,10 @@ li {
 
 .reservation {
   opacity: 0.5;
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  background-image: url("../img/restaurant-reserver.png");
   mix-blend-mode: hard-light;
+  max-width: fit-content;
+  max-height: fit-content;
 }
 
 .adress {
