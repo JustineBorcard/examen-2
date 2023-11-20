@@ -35,6 +35,10 @@ video {
   margin-top: 16px;
 }
 
+.logo {
+  posi
+}
+
 .site {
   display: flex;
 }
@@ -98,7 +102,7 @@ h3 {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  padding: 54px 103px;
+  padding: 10px 103px;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -106,6 +110,7 @@ h3 {
 .carte {
   text-align: left;
   margin: 0px 0px 25px 20px;
+  padding: 0px;
 }
 
 h4 {
@@ -131,6 +136,11 @@ li {
   padding-bottom: 5px;
 }
 
+.center{
+  display: flex;
+  justify-content: center;
+}
+
 .button {
   color: var(--Dark-green, #384b2b);
   text-align: center;
@@ -143,7 +153,7 @@ li {
   opacity: 0.5;
   background: #d9d9d9;
   padding: 4px 12px;
-  margin: 25px 86px 76px 150px;
+  margin: 25px 0px 76px 0px;
 }
 
 .dish {
@@ -156,6 +166,7 @@ li {
 
 .reservation {
   background-image: url("../img/restaurant-reserver.png");
+  padding: 54px ;
 }
 
 .adress {
