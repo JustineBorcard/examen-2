@@ -35,10 +35,6 @@ video {
   margin-top: 16px;
 }
 
-.logo {
-  posi
-}
-
 .site {
   display: flex;
 }
@@ -46,6 +42,10 @@ video {
 .site-side {
   background: #e6f5e0;
   flex-shrink: 0;
+}
+
+.container {
+  padding: 0;
 }
 
 .logo {
@@ -136,7 +136,7 @@ li {
   padding-bottom: 5px;
 }
 
-.center{
+.center {
   display: flex;
   justify-content: center;
 }
@@ -166,7 +166,20 @@ li {
 
 .reservation {
   background-image: url("../img/restaurant-reserver.png");
-  padding: 54px ;
+  padding: 54px 0px 54px 0px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.hourly {
+  background-image: url("../img/calendrier.png");
+  padding: 54px 0px 54px 0px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.contact-details {
+  padding: 54px 0 54px 0;
 }
 
 .adress {
@@ -174,4 +187,12 @@ li {
   font-family: Raleway;
   font-size: 12px;
   font-style: normal;
+  font-weight: 700;
+  margin-left: 20px;
+  padding-bottom: 15px;
+}
+
+.symbol {
+  display: flex;
+  justify-content: center;
 }
