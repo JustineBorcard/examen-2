@@ -67,6 +67,7 @@ h2 {
 @media (min-width: 992px) {
   h2 {
     font-size: 43px;
+    margin-top: 60px;
   }
 }
 
@@ -83,6 +84,7 @@ h2 {
     width: 230px;
     height: 230px;
     border-radius: 120px;
+    margin-top: 40px;
   }
 }
 
@@ -117,6 +119,7 @@ h2 {
 @media (min-width: 992px) {
   .intro {
     font-size: 24px;
+    margin-top: 40px;
   }
 }
 
@@ -144,6 +147,12 @@ h3 {
   text-align: left;
   margin: 0px 0px 25px 20px;
   padding: 0px;
+}
+
+@media (min-width: 992px) {
+  .carte {
+    margin-top: 120px;
+  }
 }
 
 h4 {
@@ -242,6 +251,12 @@ li {
   background-size: 70px;
 }
 
+@media (min-width: 992px) {
+  .contact-details {
+    background-size: 117px;
+  }
+}
+
 .adress {
   color: var(--white-text, #fff);
   font-family: Raleway;
@@ -252,11 +267,23 @@ li {
   padding-bottom: 15px;
 }
 
+@media (min-width: 992px) {
+  .adress {
+    font-size: 32px;
+  }
+}
+
 .symbol {
   margin: 20px 0 60px 20px;
   display: flex;
   gap: 20px;
   align-items: center;
+}
+
+@media (min-width: 992px) {
+  .symbol img {
+    width: 120px;
+  }
 }
 
 .maps {
