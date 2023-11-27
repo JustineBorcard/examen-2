@@ -230,7 +230,7 @@ li {
 
 .reservation {
   background-image: url("../img/restaurant-reserver.png");
-  padding: 54px 0px 54px 0px;
+  padding: 54px 170px 54px 0px;
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -270,6 +270,7 @@ li {
 @media (min-width: 992px) {
   .adress {
     font-size: 32px;
+    padding: 86px 86px 50px 60px;
   }
 }
 
@@ -278,11 +279,12 @@ li {
   display: flex;
   gap: 20px;
   align-items: center;
+  padding-left: 60px;
 }
 
 @media (min-width: 992px) {
   .symbol img {
-    width: 120px;
+    width: 79px;
   }
 }
 
