@@ -20,6 +20,12 @@ body {
   background-size: 100%;
 }
 
+@media (min-width: 992px) {
+  .background {
+    margin-right: 340px;
+  }
+}
+
 a {
   color: inherit;
 }
@@ -230,7 +236,7 @@ li {
 
 .reservation {
   background-image: url("../img/restaurant-reserver.png");
-  padding: 54px 170px 54px 0px;
+  padding: 54px 170px 54px 170px;
   background-repeat: no-repeat;
   background-size: 100%;
 }
