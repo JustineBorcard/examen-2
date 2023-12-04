@@ -14,6 +14,23 @@ body {
   background: #384b2b;
 }
 
+nav {
+  ?
+}
+
+@media (min-width: 992px) {
+  .nav {
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 .background {
   background-image: url("../img/image-background.png");
   background-repeat: no-repeat;
@@ -23,6 +40,7 @@ body {
 @media (min-width: 992px) {
   .background {
     margin-right: 340px;
+    margin-top: 142px;
   }
 }
 
@@ -50,6 +68,12 @@ video {
   flex-shrink: 0;
 }
 
+@media (min-width: 992px) {
+  .site-side {
+    padding: 0px 75px 0px 75px;
+  }
+}
+
 .container {
   padding: 0;
 }
@@ -60,10 +84,17 @@ video {
   height: 214.183px;
 }
 
+@media (min-width: 992px) {
+  .logo {
+    width: 98px;
+    height: 552.367px;
+  }
+}
+
 h2 {
   color: #fff;
   font-family: Raleway;
-  font-size: 17px;
+  font-size: 23px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
