@@ -25,6 +25,10 @@ nav {
   flex-direction: row;
 }
 
+a:hover {
+  color: #283720;
+}
+
 a {
   text-decoration: none;
   padding: 0 125px 0 0;
@@ -255,6 +259,10 @@ li {
   margin: 30px 0px 50px 0px;
 }
 
+.button:hover {
+  background-color: #ecf5e9;
+}
+
 @media (min-width: 992px) {
   .button {
     width: 323px;
@@ -281,12 +289,20 @@ li {
   text-align: center;
 }
 
+.reserve:hover {
+  color: #283720;
+}
+
 .hourly {
   background-image: url("../img/calendrier.png");
   padding: 54px 0px 54px 0px;
   background-repeat: no-repeat;
   background-size: 100%;
   margin: 0;
+}
+
+.calendrier:hover {
+  color: #283720;
 }
 
 .footer {
