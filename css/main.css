@@ -179,7 +179,6 @@ h2 {
   font-weight: 400;
   line-height: normal;
   margin: 20px 80px 76px 8px;
-  padding-right: 70px;
 }
 
 @media (min-width: 992px) {
@@ -327,18 +326,18 @@ li {
 }
 
 .footer {
-  padding-top: 53px;
-  background: #283720;
+  padding-top: 10px;
 }
 
 @media (min-width: 992px) {
   .footer {
-    padding-top: 512x;
+    padding-top: 51px;
+    background: #283720;
   }
 }
 
 .contact-details {
-  padding: 60px 0 54px 0;
+  padding: 50px 0 60px 0;
   background-image: url("../img/fourchettes.png");
   background-position: center;
   background-size: 70px;
@@ -357,7 +356,8 @@ li {
   font-style: normal;
   font-weight: 700;
   margin-left: 20px;
-  padding-bottom: 15px;
+  margin-top: 30px;
+  padding-bottom: 25px;
 }
 
 @media (min-width: 992px) {
@@ -368,11 +368,11 @@ li {
 }
 
 .symbol {
-  margin: 0 0 0px 20px;
+  margin: 0 0 0 20px;
   display: flex;
   gap: 20px;
   align-items: center;
-  padding-left: 60px;
+  padding-bottom: 60px;
 }
 
 @media (min-width: 992px) {
