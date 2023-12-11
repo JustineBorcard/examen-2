@@ -25,6 +25,18 @@ nav {
   flex-direction: row;
 }
 
+@media (max-width: 991px) {
+  nav {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .burger {
+    display: none;
+  }
+}
+
 a:hover {
   color: #283720;
 }
@@ -46,6 +58,7 @@ a {
   .background {
     margin-right: 340px;
     margin-top: 60px;
+    background-size: 80%;
   }
 }
 
@@ -158,7 +171,8 @@ h2 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 20px 20px 76px 8px;
+  margin: 20px 80px 76px 8px;
+  padding-right: 70px;
 }
 
 @media (min-width: 992px) {
